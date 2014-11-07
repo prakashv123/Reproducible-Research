@@ -1,7 +1,5 @@
 # Reproducible Research: Peer Assessment 1
 ==========================================
-Created by Xiaodan Zhang on July 18, 2014
-
 ### Basic settings
 
 ```r
@@ -270,6 +268,7 @@ library(lattice)
 xyplot(avgSteps$meanOfSteps ~ avgSteps$interval | avgSteps$weekdays, 
        layout = c(1, 2), type = "l", 
        xlab = "Interval", ylab = "Number of steps")
+        xlab = "Interval", ylab = "Number of steps")
 ```
 
 ![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15.png) 
